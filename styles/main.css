@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.robotoFONT {
+  font-family: "Roboto", sans-serif;
+}
+
+.poppinFONT {
+  font-family: "Poppins", sans-serif;
+}
+
+.interFONT {
+  font-family: "Inter", sans-serif;
+}
+
+.heroImage {
+  background: url("/heroImage.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.navImage {
+  background: url("/nav.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+
+  z-index: -1;
+}
+
+.blueImage {
+  background: url("/bgBlue.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.footContactBG {
+  background: url("/contactFoot.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.footFullBG {
+  background: url("/contactFullBG.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.sellImage {
+  background: url("/F6.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+.bgFImage {
+  background: url("/bgFBlue.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.filterNavStyles {
+  box-shadow: 0px 5px 50px rgba(1, 31, 109, 0.1);
+  border-radius: 20px;
+}
+
+.sendBACK {
+  z-index: -1;
+}
