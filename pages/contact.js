@@ -109,8 +109,8 @@ function Contact() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M0 19.3101L16 10L0 0.68988V7.93108L11.4615 10L0 12.069V19.3101Z"
                   fill="white"
                 />
