@@ -1,9 +1,13 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
+import footSticker from "../public/static/footStickers.png";
 function Footer() {
   return (
-    <div className=" flex lg:flex-row flex-col justify-around  items-center lg:items-end w-[100vw] h-[130vh] lg:h-[60vh] bg-white">
+    <div className="relative flex lg:flex-row flex-col justify-around  items-center lg:items-end w-[100vw] h-[130vh] lg:h-[60vh] bg-white">
+      <div className="absolute z-20 ">
+        <Image src={footSticker}></Image>
+      </div>
       {/* first div start */}
       <div className=" px-[1vw] w-[70%] lg:w-[30%] flex flex-col items-center justify-evenly h-[80%] ">
         <div className="">

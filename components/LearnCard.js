@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
-function LearnCard({ learnImage }) {
+import Link from "next/link";
+function LearnCard({ learnImage, customStyles }) {
   return (
-    <div className="rounded-[10px] flex flex-col justify-around items-center w-[90vw] lg:w-[21vw] h-[67vh] bg-white">
-      <div className="flex justify-center items-center  w-[100%] lg:w-[95%]">
+    <div
+      className={`rounded-[10px] flex flex-col justify-around items-center w-[90vw] lg:w-[21vw] h-[67vh] ${customStyles}`}
+    >
+      <div className="flex justify-center items-center w-[100%] lg:w-[95%]">
         <Image src={learnImage}></Image>
       </div>
       <h1 className=" px-[4vw] lg:px-[1vw] font-semibold text-[5vw] lg:text-[1.50vw]">
@@ -86,9 +89,11 @@ function LearnCard({ learnImage }) {
           <p>Raza</p>
         </div>
       </div>
-      <button className="font-semibold bg-[#1849C6] text-white rounded-[10px] py-[1vh] px-[10vw] lg:px-[4vw]">
-        Read More
-      </button>
+      <Link href="/post">
+        <button className="font-semibold bg-[#1849C6] text-white rounded-[10px] py-[1vh] px-[10vw] lg:px-[4vw]">
+          Read More
+        </button>
+      </Link>
     </div>
   );
 }

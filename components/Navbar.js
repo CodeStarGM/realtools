@@ -45,8 +45,9 @@ function Navbar() {
             <h1>Free Evaluation</h1>
           </Link>
 
-          <h1>Learn</h1>
-
+          <Link href="/learn">
+            <h1>Learn</h1>
+          </Link>
           <Link href="/contact">
             <button className="py-[0.64vh] font-medium text-black px-[1.54vw] bg-[#FFCE31] rounded-[10px]">
               Contact
@@ -112,9 +113,11 @@ function Navbar() {
             </h1>
           </Link>
 
-          <h1 className="mt-[2vh] w-[100%] text-center border-[1px] border-white text-white  py-[2vh] text-[5vw] ">
-            Learn
-          </h1>
+          <Link href="/learn">
+            <h1 className="mt-[2vh] w-[100%] text-center border-[1px] border-white text-white  py-[2vh] text-[5vw] ">
+              Learn
+            </h1>
+          </Link>
 
           <Link href="/contact">
             <button className="mt-[2vh] w-[90vw] py-[2vh] font-medium text-black px-[1.54vw] bg-[#FFCE31] rounded-[10px]">

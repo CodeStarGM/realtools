@@ -85,7 +85,6 @@ function ActiveStorage() {
           </div>
         </div>
       ) : null}
-
       <div className="flex  justify-between items-center px-[2vw] w-[100vw] h-[10vh] ">
         <h1 className="text-[4vw] lg:text-[1.50vw] text-[#4d4d4f]">
           34 Listings Found
@@ -178,7 +177,6 @@ function ActiveStorage() {
           </svg>
         </div>
       </div>
-
       <Footer />
     </>
   );

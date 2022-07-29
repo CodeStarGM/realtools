@@ -56,6 +56,15 @@ body {
   z-index: -1;
 }
 
+.blueLine {
+  background: url("/blueLine.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
 .footFullBG {
   background: url("/contactFullBG.png") no-repeat center center;
   -webkit-background-size: cover;

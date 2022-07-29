@@ -19,10 +19,10 @@ function Learn() {
         </p>
         <div className=" flex justify-center items-center w-[100vw] auto">
           <div className=" items-center w-[90vw] grid grid-cols-1 lg:grid-cols-4 gap-[3vw] h-auto">
-            <LearnCard learnImage={learn1} />
-            <LearnCard learnImage={learn2} />
-            <LearnCard learnImage={learn3} />
-            <LearnCard learnImage={learn4} />
+            <LearnCard customStyles="bg-white" learnImage={learn1} />
+            <LearnCard customStyles="bg-white" learnImage={learn2} />
+            <LearnCard customStyles="bg-white" learnImage={learn3} />
+            <LearnCard customStyles="bg-white" learnImage={learn4} />
           </div>
         </div>
         <div className=" flex  justify-center items-end w-[100vw]  h-[25vh]">
